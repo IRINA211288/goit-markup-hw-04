@@ -1,0 +1,368 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 141px;
+  margin-right: 141px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.main-content {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/********header**********/
+.header {
+  color: #e7e9fc;
+  background: #fff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-nav {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-link-nav {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.header-link-nav-span {
+  color: #2e2f42;
+}
+
+.header-list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.header-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+/*************************/
+
+/***********address*************/
+.address {
+  font-style: normal;
+}
+
+.adress-list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.adress-link {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: #404bbf;
+}
+
+/*************************/
+
+/***********section1**************/
+.slogan {
+  background: #2e2f42;
+  padding: 188px 0;
+  text-align: center;
+}
+
+.slogan-text {
+  margin: 0 auto 48px auto;
+  max-width: 496px;
+  color: #fff;
+
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.slogan-button {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.slogan-button:hover,
+.slogan-button:focus {
+  background-color: #404bbf;
+}
+/*************************/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/***********section2**************/
+.desc {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.desc-list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.desc-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.desc-title {
+  color: #2e2f42;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.desc-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*************************/
+
+/***********section3**************/
+.meta {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.member-profession {
+  padding: 32px 0;
+}
+.meta-caption {
+  margin-bottom: 72px;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.meta-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.meta-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+
+.meta-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.meta-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/*************************/
+
+/***********section4**************/
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-title-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-caption {
+  margin-bottom: 72px;
+  color: #2e2f42;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+.portfolio-item {
+  width: calc(1158px-48px / 3);
+}
+
+.portfolio-title {
+  margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-texts {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*************************/
+
+/**********footer***************/
+.footer {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-link {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-link-span {
+  color: #f4f4fd;
+}
+
+.footer-texts {
+  color: #f4f4fd;
+  width: 264px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
