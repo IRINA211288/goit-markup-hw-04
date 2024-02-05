@@ -95,7 +95,7 @@ ul {
   color: #404bbf;
 }
 
-.carent ::after {
+.current::after {
   content: "";
   width: 100%;
   left: 0;
@@ -107,7 +107,7 @@ ul {
   display: block;
 }
 
-.header-link.carent {
+.header-link.current {
   color: #404bbf;
 }
 .header-link-nav-span {
@@ -135,8 +135,8 @@ ul {
 }
 .header-link:hover,
 .header-link:focus,
-.header-link.carent:hover,
-.header-link.carent:focus {
+.header-link.current:hover,
+.header-link.carrent:focus {
   color: #404bbf;
 }
 
