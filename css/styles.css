@@ -95,7 +95,7 @@ ul {
   color: #404bbf;
 }
 
-.header-link-nav::after {
+.carent ::after {
   content: "";
   width: 100%;
   left: 0;
@@ -107,6 +107,9 @@ ul {
   display: block;
 }
 
+.header-link.carent {
+  color: #404bbf;
+}
 .header-link-nav-span {
   color: #2e2f42;
 }
@@ -118,6 +121,7 @@ ul {
 }
 
 .header-link {
+  position: relative;
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -127,11 +131,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-link.carent:hover,
+.header-link.carent:focus {
   color: #404bbf;
 }
 
@@ -155,7 +160,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-link:hover,
@@ -173,7 +178,7 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -456,7 +461,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #ffffff;
   display: flex;
   margin-bottom: 16px;
@@ -508,4 +513,9 @@ ul {
 }
 ul {
   list-style: none;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
