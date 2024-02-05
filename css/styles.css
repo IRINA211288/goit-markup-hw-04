@@ -433,7 +433,20 @@ ul {
 .dmargin-right {
   margin-right: 120px;
 }
-
+.div-footer-logo {
+  margin-right: 120px;
+}
+.icon-footer-p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 16px;
+}
 .footer-texts {
   color: #f4f4fd;
   width: 264px;
@@ -445,10 +458,9 @@ ul {
   margin-bottom: 16px;
 }
 .div-footer-icon {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
-  align-items: baseline;
 }
 
 .ul-icon-footer {
@@ -477,4 +489,9 @@ ul {
   background-color: #31d0aa;
 }
 .icon-footer {
+  width: 24px;
+  height: 24px;
+}
+ul {
+  list-style: none;
 }
